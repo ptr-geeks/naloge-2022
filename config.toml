@@ -1,0 +1,34 @@
+title = "PTR 2022"
+theme = "hugo-book"
+staticDir = ["static"]
+
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
+[module]
+    [module.hugoVersion]
+        extended = true
+        min = "0.55.0"
+
+[[menu.main]]
+    name = "Uvod"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Naloge"
+    url = "/exercises/"
+    weight = 2
+
+[params]
+    BookTheme = "light"
+    BookToC = false
+    BookMenuBundle = "/menu"
+    BookSearch = false
+    BookComments = false
+
+[[menu.after]]
+  name = "GitHub"
+  url = "https://github.com/ptr-geeks"
+  weight = 10
