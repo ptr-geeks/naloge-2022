@@ -1,9 +1,7 @@
 ---
-title: Naloga 1 - Cin cin cekin
-weight: 1
+title: 1. naloga - Cin cin cekin
+weight: 20
 ---
-
-# Naloga 1 - Cin cin cekin
 
 Lokalni bogataš Butalcev, gospod Bogatun, si je pred kratkim zaželel prešteti vso svoje bogastvo različnih bankovcev in kovancev. Ustvaril je napravo, ki sprejme kovance in bankovce enega po enega, ter jih avtomatično prepozna, vendar pa nam ne zna povedati nič kaj zanimivega
 o premoženju gospoda Bogatuna.
