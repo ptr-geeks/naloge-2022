@@ -88,7 +88,7 @@ let ljubi = true;
 
 while(stListov > 0) {
     stListov -= 1;
-    ljubi != ljubi;
+    ljubi = !ljubi;
 }
     
 console.log("Ljubi", ljubi)
