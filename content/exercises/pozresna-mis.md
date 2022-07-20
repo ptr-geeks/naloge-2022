@@ -1,6 +1,6 @@
 ---
 title: 4. naloga - Požrešna miš
-weight: 20
+weight: 40
 ---
 
 Nekega dne je nona pripovedovala zgodbo, ki jo je slišala, ko je bila še otrok. V vasi ob reki Parma naj bi živela miška Tepka, ki je oboževala sir. Domovala je v manjši trgovini s sirom, ki ga je v svoji luknji vsako noč pojedla ogromno. Lastnik trgovinice se je večkrat spraševal, kako je to sploh mogoče - a je bilo. Tepka je bila zelo napredna miš z glavo na pravem mestu. Prišla je do popolne strategije, kako v eni rundi odnesti čim več sira s polic. Menda ji je pri algoritmu pomagal mišji heker, brkati Piratnik, ampak kdo bi vedel, če je to res.
