@@ -3,7 +3,7 @@ title: 5. naloga - Potovanje
 weight: 50
 ---
 
-Jure se je odpravlja na dolgo potovanje po svetu. Da bo kar se da odnesel od te izkušnje, se je odločil, da bo potoval samo z avtobusom in občudoval pokrajino. Vnaprej se je začel pripravljati s katerimi avtobusi lahko krene na pot in si začel izpisovati postaje ter koliko stane prevoz. Ko je pogledal to zmedo podatkov, se je zgrozil nad norimi cenami.
+Jure se odpravlja na dolgo potovanje po svetu. Da bi od te izkušnje čim več odnesel, se je odločil, da bo potoval samo z avtobusom in občudoval pokrajino. Vnaprej se je začel pripravljati, s katerimi avtobusi lahko krene na pot ter si začel izpisovati postaje in koliko stane prevoz. Ko je pogledal to zmedo podatkov, se je zgrozil nad norimi cenami.
 
 Jure je nato stopil do tebe, da mu pomagaš najti pot, po kateri bo prišel najceneje do cilja. V primeru, da je takih poti več, mu podaj tisto, po kateri je videl večje število vmesnih lokacij.
 

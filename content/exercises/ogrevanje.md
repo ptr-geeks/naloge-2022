@@ -3,7 +3,7 @@ title: 0. naloga - Ogrevanje
 weight: 10
 ---
 
-Filip se je zaljubil, a ni prepričan ali je ljubezen obojestranska. Zato na travniku poišče marjetico in trga njene cvetne liste: "Ljubi", "Ne ljubi", "Ljubi", "Ne ljubi"... Pomagaj mu napisati računalniški program, ki mu sprejme število listkov na marjetici in odgovori z "Ljubi" ali "Ne ljubi". Filip štetje vedno začne z "Ljubi".
+Filip se je zaljubil, a ni prepričan ali je ljubezen obojestranska. Zato na travniku poišče marjetico in trga njene cvetne liste: "Ljubi", "Ne ljubi", "Ljubi", "Ne ljubi"... Pomagaj mu napisati računalniški program, ki sprejme število listkov na marjetici in odgovori z "Ljubi" ali "Ne ljubi". Filip štetje vedno začne z "Ljubi".
 
 **Primer 1:**
 ```
@@ -21,19 +21,20 @@ Izhod: "Ljubi"
 
 Zgornja naloga je rešena najprej v psevevdokodi, potem pa še v programskih jezikih Python in Javascript. [Psevodkoda](https://sl.wikipedia.org/wiki/Psevdokoda) je način, kako predstaviti algoritem v človeku čim bolj razumljivi obliki. Ni treba, da se držiš spodnjih primerov, ki so navedeni le za lažjo predstavo.
 
-Če ne poznaš nobenega programskega jezika, to ni težava. Za osnove poskrbimo. Opiši postopek z besedami, kako bi rešil. Pomembno je, da problem poizkusiš razbiti na čim manjše koščke. Najboljši približek bo, če bodo stavki kratki npr. `število povečamo za 1`. Zapišeš lahko tudi bolj matematično kot `število = število + 1` ali `število += 1`.
+Če ne poznaš nobenega programskega jezika, bodi brez skrbi, saj ti bomo z osnovami pomagali mi. Postopek in rešitev lahko opiši z
+besedami. Pomembno je, da problem poizkusiš razbiti na čim manjše koščke. Najboljši približek bo, če bodo stavki kratki npr. `število povečamo za 1`. Zapišeš lahko tudi bolj matematično kot npr. `število = število + 1` ali `število += 1`.
 
-#### Naivna rešitev v psevdokodu
+#### Naivna rešitev v psevdokodi
 
 ```python
 # Kar je za znakom #, računalnik preskoči. To je komentar
 # Prebere število listov in shrani v spremenljivko steviloListov
-steviloListov = preberiSteviloListo()
+steviloListov = preberiSteviloListov()
 ljubi = 'Ljubi' # Začnemo z ljubi, zapomnimo si to vrednost v "ljubi"
 
 # Ponavljaj je zanka, tako povemo računalniku, naj nekaj dela
-# dokler pogoj ne velja.
-ponavljal dokler je steviloListov večje od 0 # dokler ima marjetica liste
+# dokler pogoj velja.
+ponavljaj, dokler je steviloListov večje od 0: # dokler ima marjetica liste
     # Vse kar je zamaknenjo (tipka TAB), sodi v zanko
     # Ko zaključi (pogoj ne drži več), skoči iz zanke
     steviloListov = steviloListov - 1 # odtrgamo list
@@ -49,12 +50,12 @@ Zgornji način je najbolj naiven. Kaj če ime marjetica ogromno, na primer 984.6
 
 Z nekaj matematike problem postane sila preprost (in hiter). Treba je le preveriti, ali je število sodo ali liho, torej kakšen je ostanek pri deljenju z dve.
 
-#### Optimalna rešitev v psevdokodu
+#### Optimalna rešitev v psevdokodi
 
 ```python
-steviloListov = preberiSteviloListo()
+steviloListov = preberiSteviloListov()
 
-# lahko tudi, če je število liho, če 
+# vemo da se zanka izteče z ljubi, če je število listov liho
 če je ostanek steviloListov pri deljenju z 2 enako 1
     izpiši "ljubi"
 sicer
