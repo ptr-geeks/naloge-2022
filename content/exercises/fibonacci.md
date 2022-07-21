@@ -3,7 +3,7 @@ title: 2. naloga - Fibonacci
 weight: 20
 ---
 
-Skoraj tisočletje je od obdobja, ko je živel italjanski matematik Leonardo Bonacci, ki mu danes mu pravimo kar Fibonacci. Po njem je poimenovano znano zaporedje pštevil, Fibonaccijevo zaporedje, ki ga je predstavil evropskim matematikom. Navdih za svoje zaporedje je našel, ko je preučeval razmnoževanje zajcev. Pravilo tega zaporedja je zelo enostavno: naslednja številka v zaporedju je vsota prejšnjih dveh. Npr. 1, 1, 2, 3, 5, 8, 13, 21, ...
+Skoraj tisočletje je od obdobja, v katerem je živel italjanski matematik Leonardo Bonacci, ki mu danes mu pravimo kar Fibonacci. Po njem je poimenovano znano zaporedje števil, Fibonaccijevo zaporedje, ki ga je predstavil evropskim matematikom. Navdih za svoje zaporedje je našel, ko je preučeval razmnoževanje zajcev. Pravilo tega zaporedja je zelo enostavno: naslednja številka v zaporedju je vsota prejšnjih dveh. Npr. 1, 1, 2, 3, 5, 8, 13, 21, ...
 
 Razmišljanje gre tako:
 
