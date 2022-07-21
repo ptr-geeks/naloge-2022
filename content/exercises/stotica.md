@@ -3,7 +3,7 @@ title: 3. naloga - Stotica
 weight: 30
 ---
 
-Preganjati dolgčas je zahtevno, še posebej če preganjamo tako, da razmišljamo in rešujemo uganke. Igor se nadvse rad zaposli z matemtičnimi ugankami. Na list papirja napiše števila od 1 do 9:
+Preganjati dolgčas je zahtevno, še posebej če ga preganjamo tako, da razmišljamo in rešujemo uganke. Igor se nadvse rad zaposli z matemtičnimi ugankami. Na list papirja napiše števila od 1 do 9:
 
 ```
 1  2  3  4  5  6  7  8  9 
