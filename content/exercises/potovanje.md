@@ -25,15 +25,15 @@ Izhod naj vrne najcenejšo pot od vozlišča `0` do vozlišča `n-1`. Cene izpis
 3 4 10
 3 8 150
 4 5 20
-4 8 80
+4 9 80
 5 6 10
-5 9 5
+5 8 5
 6 7 20
-6 9 5
-7 8 20
+6 8 5
+7 9 20
 ```
 
 **Primer izhoda:**
 ```
-0 1 2 4 5 9 6 7 8
+0 1 2 4 5 8 6 7 9
 ```
